@@ -1,4 +1,4 @@
-// ~~~~~~ Custom Keymap by marydodo ~~~~~
+// ~~~~~~ KEYMAP BY MARYDODO https://github.com/marydodo ~~~~~~~~
 
 #include QMK_KEYBOARD_H
 
@@ -91,3 +91,5 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     }
     return true;
 }
+
+// ~~~~~~ KEYMAP BY MARYDODO https://github.com/marydodo ~~~~~~~~
