@@ -6,6 +6,7 @@
     * [_FN1] FN, RESET, and RGB mod layer
   * Lighting layers
     * Code to light left half RED for CAPS LOCK
+    * Code to light right half BLUE for FN layer
 
 
 ![ezgif com-gif-maker(1)](https://user-images.githubusercontent.com/56741532/174403634-0696db68-1eae-411f-a27b-e227b8cc37d1.gif)
