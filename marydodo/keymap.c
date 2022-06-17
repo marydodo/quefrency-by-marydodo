@@ -45,12 +45,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // REMEMBER TO ADD #define RGBLIGHT_LAYERS in your config.h file
 
-// Light left half when caps lock is active. Hard to ignore!
+// Light LEFT half when caps lock is active. Hard to ignore!
 const rgblight_segment_t PROGMEM capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {0, 4, HSV_RED},
     {12, 4, HSV_RED}
 );
-// Light left half when keyboard layer 1 is active
+// Light RIGHT half when keyboard layer 1 is active
 const rgblight_segment_t PROGMEM fnreset_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {4, 4, HSV_BLUE},
     {8, 4, HSV_BLUE}
