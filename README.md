@@ -6,3 +6,7 @@
     * [_FN1] FN, RESET, and RGB mod layer
   * Lighting layers
     * Code to light left half RED for CAPS LOCK
+
+## IMPORTANT:
+
+### Remember to add `#define RGBLIGHT_LAYERS` in your `config.h` file.
