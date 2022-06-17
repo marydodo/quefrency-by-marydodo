@@ -1,4 +1,4 @@
-# Hello there! This is my personal keymap for the Keebio Quefrency keyboard. 
+# Hello there! This is my personal keymap for the Keebio Quefrency REV2 keyboard. 
 
 ### Included in my custom `marydodo/keymap.c`
   * My personal layers (four)
