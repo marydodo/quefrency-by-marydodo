@@ -2,9 +2,7 @@
 
 ### Included in my custom `marydodo/keymap.c`
   * My personal layers (four)
-    * [0] alpha main layer
-
+    * [_BASE] Alpha main layer
+    * [_FN1] FN, RESET, and RGB mod layer
   * Lighting layers
-    * Code to light bolt only
-    * Code to light underglow only
-    * Code to light all LEDs on the board
+    * Code to light left half RED for CAPS LOCK
