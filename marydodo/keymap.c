@@ -47,8 +47,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // Light LEDs on left half red when caps lock is active. Hard to ignore!
 const rgblight_segment_t PROGMEM my_capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, 4, HSV_RED},       // Light 4 LEDs, starting with LED 6
-    {9, 4, HSV_RED}       // Light 4 LEDs, starting with LED 12
+    {0, 4, HSV_RED},       
+    {9, 4, HSV_RED}       
 );
 
 // Now define the array of layers. Later layers take precedence
