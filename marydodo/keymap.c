@@ -45,8 +45,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // REMEMBER TO ADD #define RGBLIGHT_LAYERS in your config.h file
 
-// RGB map LEFT 1, 2, 3, 12, 13, 14, 15, 0  RIGHT 7, 6, 5, 4, 11, 10, 9, 8
-
 // Light left half when caps lock is active. Hard to ignore!
 const rgblight_segment_t PROGMEM capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {0, 4, HSV_RED},
@@ -54,8 +52,8 @@ const rgblight_segment_t PROGMEM capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
 );
 // Light left half when keyboard layer 1 is active
 const rgblight_segment_t PROGMEM fnreset_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {7, 4, HSV_BLUE},
-    {11, 4, HSV_BLUE}      
+    {4, 4, HSV_BLUE},
+    {8, 4, HSV_BLUE}
 );
 
 // Array of layers. Later layers take precedence
@@ -99,3 +97,5 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     }
     return true;
 }
+
+// ~~~~~~ Custom Keymap by marydodo ~~~~~
