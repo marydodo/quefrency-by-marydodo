@@ -11,6 +11,7 @@ extern keymap_config_t keymap_config;
 #define _BASE 0
 #define _FN1 1
 
+// My custom workflow keys
 #define CLIP_B LCTL(LSFT(KC_C))
 #define NEW_TAB LGUI(KC_T)
 #define NEW_INCOG LGUI(LSFT(KC_N))
